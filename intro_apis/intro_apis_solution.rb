@@ -10,8 +10,10 @@ input_subreddit = gets.chomp
 #print "kind: "
 #name_of_kind = gets.chomp
 
-response = HTTP.get("https://www.reddit.com/r/#{ input_subredit }/.json")
+response = HTTP.get("https://www.reddit.com/r/#{ input_subreddit }/.json")
 
 response.parse 
 body = response.parse
-subreddit = body["data"]["children"][2]["data"]["subreddit"]#Make your terminal app here! 
+subreddit = body["data"]["children"][2]["data"]["subreddit"]
+
+#Make your terminal app here! 
