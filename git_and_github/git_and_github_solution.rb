@@ -1,4 +1,5 @@
-https://github.com/tapena/Hello-World-2.git# Paste a link to your github repository below:
+https://github.com/tapena/Hello-World-2.git
+# Paste a link to your github repository below:
 
 I was not able to delete my first version. I was also not able to clone my repository.
 
